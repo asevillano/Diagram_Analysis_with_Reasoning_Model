@@ -1,0 +1,10 @@
+python-dotenv==1.0.1
+openai
+pymupdf
+Pillow
+streamlit
+networkx
+pyvis
+matplotlib
+plotly
+gremlinpython
