@@ -18,7 +18,8 @@ Pre-processing the documentation:
 - Step 2: extract the connections from the stitched image with the legends and the schema [ProductName]_stitchted.png
 
 ## Streamlit demo app:
-The streamlit demo app has to be run with this command: streamlit run analyze-images-app.py
+The streamlit demo app has to be run with this command: `streamlit run analyze-images-app.py`
+<img src="./Demo.gif" alt="Demo"/>
 
 ## Requirements:
 
