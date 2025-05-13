@@ -44,7 +44,8 @@ Your response should be in this JSON format:
       "component_name": "complete name from the legend",
       "component_number": component number,
       "connected_to": [ 
-			{{"component_number": component number,
+			{{"component_name": component name from the legend,
+              "component_number": component number,
 			  "connection_style": "color and shape of the line",
               "connection_type": "named as listed in the connection types provided",
 			}}

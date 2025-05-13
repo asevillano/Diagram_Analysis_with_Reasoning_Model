@@ -138,7 +138,7 @@ def main():
                 st.write("Identified Connection:")
                 connections = json.loads(response)
                 # SHOW IN JSON FORMAT
-                #st.code(json.dumps(connections, indent=4), language='json')
+                st.code(json.dumps(connections, indent=4), language='json')
                 
                 # SHOW THE CONNECTIONS AS A LIST
                 for connection in connections['connections']:
@@ -172,7 +172,6 @@ def main():
                 # Display the graph in Streamlit
                 st.title("Component Connection Graph")
                 st.components.v1.html(open("graph.html").read(), height=800)
-
 
                 # Guardamos el resultado del análisis en session_state para su uso posterior.  
                 st.session_state.connections = connections 
